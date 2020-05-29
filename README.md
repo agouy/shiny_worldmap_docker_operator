@@ -14,5 +14,5 @@ git add -A && git commit -m "$VERSION" && git tag -a $VERSION -m "++" && git pus
 
 ```bash
 # renv cache ~/.local/share/renv
-docker run -it --rm --entrypoint "/bin/bash" tercen/worldmap:0.0.4
+docker run -it --rm --entrypoint "/bin/bash" agouy/worldmap:0.0.4
 ```
